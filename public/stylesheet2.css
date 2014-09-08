@@ -1,28 +1,98 @@
 .rise {
-   background-image: url(/first_tof.svg);	
+   background-image: url(/first_tof1.svg);   
    background-position: center bottom; /*Positioning*/
    background-repeat: no-repeat; /*Prevent showing multiple background images*/
    background-size: cover;
    opacity:0.75;
    top: 0;
-   height:800px;
-	}
+   height:700px;
+   }
 
 
 .centre { text-align: center;}
 
+.homer{background-color: #07a94f;
+color: white;}
 
-	
-.toto {
-   background-image: url(/disco_soupe1.jpg);	
+h2.homer{
+   color: white;
+}
+.molo{background-color: #551b91;
+color: white;
+}  
+.loumo{background-color: #07a94f;
+color: white;
+
+}
+.koli{
+  background-image: url(/spark.svg); 
    background-position: center bottom; /*Positioning*/
    background-repeat: no-repeat; /*Prevent showing multiple background images*/
    background-size: cover;
    opacity:0.75;
+   top: 0;
+   height:500px;
+   padding-top:100px;
+   
+}
+.toto {
+   background-image: url(/disco_soupe1.jpg); 
+   background-position: center bottom; /*Positioning*/
+   background-repeat: no-repeat; /*Prevent showing multiple background images*/
+   background-size: cover;
+   opacity:0.4px;
    /*top: 0;*/
-   height:800px;
+   height:600px;
+   padding-top:150px;
+   padding-left:500px;
+}
+.mone {
+   background-image: url(/tambouille.jpg);  
+   background-position: center top; /*Positioning*/
+   background-repeat: no-repeat; /*Prevent showing multiple background images*/
+   background-size: cover;
+   opacity:0.75px;
+   /*top: 0;*/
+   height:600px;
+   padding-top:250px;
+}
 
-}	
+.grand{
+  font-size: 2em;
+}
+.plus-grand{
+  font-size: 3em;
+}
+
+
 #texte {
     color: white;
+    font-family: 'Trebuchet';
+    
+}
+#texte-disco {
+    color: white;
+    font-size: 5em;
+    font-family: 'Trebuchet';
+    
+}
+#texte-spark {
+    color: black;
+    font-size: 4em;
+    font-family: 'Trebuchet';
+    
+}
+@font-face {
+font-family: 'Trebuchet';
+src: url('/Trebuchet MS.ttf');
+src: local('☺'), url('/Trebuchet MS.ttf') format('Stroke-Bold');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'School';
+src: url('/School.ttf');
+src: local('☺'), url('/School.ttf') format('Bold');
+font-weight: normal;
+font-style: normal;
 }
