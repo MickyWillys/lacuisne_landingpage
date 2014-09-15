@@ -32,7 +32,13 @@
           .toto
             .row.centre
               .small-9.large-9.columns 
-                %h1{ :id => "texte-disco"} La force du collectif en action.  
+                .show-for-small-only
+                  %h3{ :class => "grand",:id => "texte-disco"} La force du collectif en action.  
+                .show-for-medium-only
+                  %h2{ :class => "grand",:id => "texte-disco"} La force du collectif en action.  
+                .show-for-large-up
+                  %h1{ :class => "tres-grand",:id => "texte-disco"} La force du collectif en action.  
+                  
           .molo
             .row
               .small-6.large-6.columns 
@@ -42,15 +48,25 @@
               
             .row
               .small-6.large-6.columns 
-                %p  ni considéré, ni écouté, ni entendu, ni soutenu, ni valorisé, ni si seuls contre l’adversité, ni laissés pour compte, ni moutons à tondre, ni sacrifiés à des systèmes obsolètes qui nous mènent tout droit aux conflits et à la guerre, ni embarqués sur le chemin d’exploitation des plus faibles grâce à la rhétorique intellectuelle de l’égalité des chances et à la dilapidation des ressources naturelles mais un peu quand même…
+                %p  ni considéré, ni écouté, ni entendu, ni soutenu, ni valoriser, ni si seuls contre l’adversité, ni laissés pour compte, ni moutons à tondre, ni sacrifiés à des systèmes obsolètes qui nous mènent tout droit aux conflits et à la guerre, ni embarqués sur le chemin d’exploitation des plus faibles grâce à la rhétorique intellectuelle de l’égalité des chances et à la dilapidation des ressources naturelles mais un peu quand même…
               .small-6.large-6.columns
                 %p  qu'ils ne servent pas nos intérêt, qu’ils aient oublié le bien commun, l’intérêt général, l’engagement désintéressé, la vision, les générations futures, l’humilité, la force de l’intelligence collective, la puissance productive des valeurs partagées, l’efficacité de la solidarité pour d’autres objectifs que le pouvoir, la captation de l’argent, la perversion des concepts et leurs conforts personnels mais un peu quand même…
               
             
               %h2{ :class => "centre",:id => "texte"} C’est pas qu’on soit persuadés que ce que l’on va faire ensemble résolve tous ces problèmes mais un peu quand même …
           .koli
-            .row.centre
-              %h1{ :id => "texte-spark"} Les idées sont créatrices mais ne valent que par leur réalisation.
+            .conteneur
+              .bloc
+                .show-for-small-only
+                  %h3{ :id => "texte-spark"} Les idées sont créatrices mais ne valent que par leur réalisation.
+                  %span
+                .show-for-medium-only
+                  %h2{ :id => "texte-spark"} Les idées sont créatrices mais ne valent que par leur réalisation.
+                  %span
+                .show-for-large-up
+                  %h1{ :id => "texte-spark"} Les idées sont créatrices mais ne valent que par leur réalisation.
+                  %span
+            
           .loumo
             
           
@@ -66,8 +82,8 @@
             .texte.centre.row.grand
               %h2{ :id => "texte-disco"} #tambouille
             .small-4.columns
-              %a.heightfix{:href => "https://twitter.com/LaCuisineCo"}
+              %a.heightfix{:href => "https://twitter.com/LaCuisineCo", :target=>"_blank" }
                 %img.heightfix{:height => "90", :src => "Logo_TWITTER.png", :width => "90"}
             .small-4.columns
-              %a.heightfix{:href => "https://www.facebook.com/lacuisineco"}
+              %a.heightfix{:href => "https://www.facebook.com/lacuisineco", :target=>"_blank"}
                 %img.heightfix{:height => "90", :src => "Logo_FACEBOOK.png", :width => "90"}

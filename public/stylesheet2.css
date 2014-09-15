@@ -1,12 +1,12 @@
 .rise {
-   background-image: url(/first_tof1.svg);   
+   background-image: url(/first_tof_gimped.jpg);	
    background-position: center bottom; /*Positioning*/
    background-repeat: no-repeat; /*Prevent showing multiple background images*/
    background-size: cover;
    opacity:0.75;
    top: 0;
    height:700px;
-   }
+	}
 
 
 .centre { text-align: center;}
@@ -19,32 +19,46 @@ h2.homer{
 }
 .molo{background-color: #551b91;
 color: white;
-}  
+}	
 .loumo{background-color: #07a94f;
 color: white;
 
 }
 .koli{
-  background-image: url(/spark.svg); 
+  background-image: url(/spark1.jpg ); 
    background-position: center bottom; /*Positioning*/
    background-repeat: no-repeat; /*Prevent showing multiple background images*/
    background-size: cover;
    opacity:0.75;
-   top: 0;
-   height:500px;
-   padding-top:100px;
-   
+   height: 500px;
+   top: 0px;
+  
 }
+div.conteneur {
+  height:500px;
+  line-height:500px;
+  text-align:center; /* centrage horizontal */
+}
+
+div.bloc {
+  width: 70%;
+  vertical-align:middle;
+  display:inline-block;
+  line-height:normal; /* on rétablit le line-height */
+  text-align:center; /* ... et l'alignement du texte */
+}
+
+
 .toto {
-   background-image: url(/disco_soupe1.jpg); 
+   background-image: url(/disco_soupe1.jpg);	
    background-position: center bottom; /*Positioning*/
    background-repeat: no-repeat; /*Prevent showing multiple background images*/
    background-size: cover;
    opacity:0.4px;
    /*top: 0;*/
    height:600px;
-   padding-top:150px;
-   padding-left:500px;
+   padding-top:15%;
+   padding-left:20%;
 }
 .mone {
    background-image: url(/tambouille.jpg);  
@@ -63,7 +77,9 @@ color: white;
 .plus-grand{
   font-size: 3em;
 }
-
+.tres-grand{
+  font-size: 5em;
+}
 
 #texte {
     color: white;
@@ -72,13 +88,12 @@ color: white;
 }
 #texte-disco {
     color: white;
-    font-size: 5em;
     font-family: 'Trebuchet';
     
 }
 #texte-spark {
     color: black;
-    font-size: 4em;
+    font-size: 3em;
     font-family: 'Trebuchet';
     
 }
