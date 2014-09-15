@@ -80,7 +80,12 @@
         .mone
           .row
             .texte.centre.row.grand
-              %h2{ :class => "tres-grand",:id => "texte-disco"} #tambouille
+              .show-for-small-only
+                  %h3{ :class => "grand",:id => "texte-disco"} #tambouille
+              .show-for-medium-only
+                  %h2{ :class => "grand",:id => "texte-disco"} #tambouille
+              .show-for-large-up
+                  %h1{ :class => "tres-grand",:id => "texte-disco"} #tambouille
             .small-4.columns
               %a.heightfix{:href => "https://twitter.com/LaCuisineCo", :target=>"_blank" }
                 %img.heightfix{:height => "90", :src => "Logo_TWITTER.png", :width => "90"}
